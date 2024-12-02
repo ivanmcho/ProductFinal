@@ -1,0 +1,49 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+*.log
+
+# Entornos virtuales
+env/
+venv/
+.venv/
+
+# Archivos específicos de TensorFlow/Keras
+checkpoint
+*.h5
+*.hdf5
+*.pb
+*.index
+.saved_model/
+
+# Archivos de datos
+dataset/train/
+dataset/validation/
+dataset/raw_videos/
+dataset/images/
+
+# Archivos de resultados y visualizaciones
+*.png
+*.jpg
+*.jpeg
+
+# Archivos de LaTeX auxiliares
+*.aux
+*.log
+*.out
+*.toc
+*.gz
+*.synctex.gz
+
+# Configuración de IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
