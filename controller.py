@@ -58,3 +58,8 @@ async def classify(file: UploadFile = File(...)):
         # Limpiar archivo temporal
         if os.path.exists(temp_file_path):
             os.remove(temp_file_path)
+
+# Bloque de escucha
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8000)
